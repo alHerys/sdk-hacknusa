@@ -1,0 +1,197 @@
+{
+  "status": "passed",
+  "dataset": "eight synthetic Indonesian cases; seven have relevant context; no training or tuning",
+  "matcher_fingerprint": "04525d806eaab4ef443e2ea0d0d5490aa28fc480ea324a1a1b6aec03a4934fdf",
+  "top_1": 1.0,
+  "top_3": 1.0,
+  "latency_median_ms": 253.55,
+  "latency_max_ms": 1914.1,
+  "rows": [
+    {
+      "case": "clear-merchant",
+      "relevant_ids": [
+        "0"
+      ],
+      "suggestions": [
+        {
+          "candidate_id": "0",
+          "cosine": 0.8976041078567505
+        },
+        {
+          "candidate_id": "2",
+          "cosine": 0.8689135313034058
+        },
+        {
+          "candidate_id": "3",
+          "cosine": 0.8331280946731567
+        }
+      ],
+      "top_1_hit": true,
+      "top_3_hit": true,
+      "latency_ms": 1914.1
+    },
+    {
+      "case": "indonesian-slang",
+      "relevant_ids": [
+        "0"
+      ],
+      "suggestions": [
+        {
+          "candidate_id": "0",
+          "cosine": 0.8929011821746826
+        },
+        {
+          "candidate_id": "1",
+          "cosine": 0.8343105316162109
+        },
+        {
+          "candidate_id": "3",
+          "cosine": 0.8296308517456055
+        }
+      ],
+      "top_1_hit": true,
+      "top_3_hit": true,
+      "latency_ms": 189.5
+    },
+    {
+      "case": "separate-message",
+      "relevant_ids": [
+        "0"
+      ],
+      "suggestions": [
+        {
+          "candidate_id": "0",
+          "cosine": 0.8902827501296997
+        },
+        {
+          "candidate_id": "1",
+          "cosine": 0.8461076021194458
+        },
+        {
+          "candidate_id": "3",
+          "cosine": 0.8379138708114624
+        }
+      ],
+      "top_1_hit": true,
+      "top_3_hit": true,
+      "latency_ms": 154.1
+    },
+    {
+      "case": "same-merchant-other-chat",
+      "relevant_ids": [
+        "0",
+        "1"
+      ],
+      "suggestions": [
+        {
+          "candidate_id": "0",
+          "cosine": 0.8976041078567505
+        },
+        {
+          "candidate_id": "1",
+          "cosine": 0.8976041078567505
+        },
+        {
+          "candidate_id": "3",
+          "cosine": 0.8438764810562134
+        }
+      ],
+      "top_1_hit": true,
+      "top_3_hit": true,
+      "latency_ms": 212.1
+    },
+    {
+      "case": "correction",
+      "relevant_ids": [
+        "0"
+      ],
+      "suggestions": [
+        {
+          "candidate_id": "0",
+          "cosine": 0.8653310537338257
+        },
+        {
+          "candidate_id": "1",
+          "cosine": 0.8345847129821777
+        },
+        {
+          "candidate_id": "2",
+          "cosine": 0.8264515399932861
+        }
+      ],
+      "top_1_hit": true,
+      "top_3_hit": true,
+      "latency_ms": 461.4
+    },
+    {
+      "case": "no-relevant-context",
+      "relevant_ids": [],
+      "suggestions": [
+        {
+          "candidate_id": "2",
+          "cosine": 0.8218495845794678
+        },
+        {
+          "candidate_id": "0",
+          "cosine": 0.8216046094894409
+        },
+        {
+          "candidate_id": "1",
+          "cosine": 0.810241162776947
+        }
+      ],
+      "top_1_hit": null,
+      "top_3_hit": null,
+      "latency_ms": 600.5
+    },
+    {
+      "case": "same-name-ambiguity",
+      "relevant_ids": [
+        "0",
+        "1"
+      ],
+      "suggestions": [
+        {
+          "candidate_id": "0",
+          "cosine": 0.8877209424972534
+        },
+        {
+          "candidate_id": "1",
+          "cosine": 0.875472903251648
+        },
+        {
+          "candidate_id": "2",
+          "cosine": 0.8346281051635742
+        }
+      ],
+      "top_1_hit": true,
+      "top_3_hit": true,
+      "latency_ms": 223.5
+    },
+    {
+      "case": "numeric-context",
+      "relevant_ids": [
+        "0"
+      ],
+      "suggestions": [
+        {
+          "candidate_id": "0",
+          "cosine": 0.8894426822662354
+        },
+        {
+          "candidate_id": "1",
+          "cosine": 0.8551168441772461
+        },
+        {
+          "candidate_id": "3",
+          "cosine": 0.8346070647239685
+        }
+      ],
+      "top_1_hit": true,
+      "top_3_hit": true,
+      "latency_ms": 283.6
+    }
+  ],
+  "token_oversize_stable_ties": "passed",
+  "interpretation": "No-match and duplicate-chat cases demonstrate that ranking never authenticates association. No threshold or payment safety claim."
+}

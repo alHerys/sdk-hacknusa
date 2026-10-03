@@ -1,0 +1,42 @@
+{
+  "sdk_version": "0.1.0-poc",
+  "wire_schema": "1.0",
+  "jvm_target": 11,
+  "operations": [
+    "findContext",
+    "assess"
+  ],
+  "artifacts": {
+    "sdk/core/build/libs/qrishield-core-0.1.0-poc.jar": {
+      "bytes": 51206,
+      "sha256": "112ed7a543933821a5bc42f40db638909a305130928f1c46c5f388ae51e8c50c"
+    },
+    "sdk/client/build/libs/qrishield-client-0.1.0-poc.jar": {
+      "bytes": 40302,
+      "sha256": "5138634cab5914a9b5f992efd8cccb3fc9d4c7edb3ada8dbfa5b3be68b5bfb8e"
+    }
+  },
+  "verification": {
+    "jvm_unit_tests": 12,
+    "real_kotlin_http_tests": 1,
+    "python_service_tests": 15,
+    "native_laya_smoke_fixtures": 4,
+    "actual_device_http_tests": 1
+  },
+  "matcher_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "matcher_fingerprint": "04525d806eaab4ef443e2ea0d0d5490aa28fc480ea324a1a1b6aec03a4934fdf",
+  "status": "experimental",
+  "payment_approval": false,
+  "android_integration_owner": "coordinated bank chat; this chat must not edit HackNusa",
+  "android_acceptance_reported_by_bank_chat": {
+    "actual_device_http_seconds": 6.223,
+    "app_jvm_passed": 25,
+    "BankQrFlow": 6,
+    "NotificationContext": 3,
+    "SdkReview": 2,
+    "NotificationPreview": 5,
+    "ProductionWarning": 3,
+    "QrisReviewAcceptance": 5,
+    "bank_ui_final_checks": "owned by bank chat; not claimed complete"
+  }
+}

@@ -1,0 +1,30 @@
+**/.venv/
+**/__pycache__/
+**/.env
+**/build/
+**/.gradle/
+.DS_Store
+services/laya/models/
+hacknusa-laya-450-50-v1/
+
+# AI weights and model bundles must never enter Git history.
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.gguf
+*.ggml
+*.h5
+*.hdf5
+*.ckpt
+*.pkl
+*.pickle
+pytorch_model*.bin
+tf_model*.bin
+**/models/
+/hacknusa-laya-*/
+
+# Local secrets and private runtime configuration.
+**/.env.*
+*.pem
+*.key

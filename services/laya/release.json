@@ -1,0 +1,10 @@
+{
+  "descriptor_version": "1.0",
+  "model_id": "hacknusa-laya-450-50-v1",
+  "bundle": "../../hacknusa-laya-450-50-v1",
+  "expected_manifest_sha256": "3f61f78d98a4d723e08b782d8e79a27595830ec9f3a9c50f83977c9146cb7faf",
+  "native_schema_version": "1.0",
+  "policy_version": "poc-1",
+  "task_policy_approved": {"intent": false, "recipient_relation": false},
+  "inference_settings": {"device": "cpu", "amp": "off", "fast": false, "compile": false, "threads": 6, "max_len": 1024, "head_max_len": 512}
+}

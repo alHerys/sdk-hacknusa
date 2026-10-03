@@ -1,0 +1,9 @@
+# Same upstream versions as the supplied export. PyTorch's +cpu Linux build
+# has no macOS wheel; use the macOS wheel on CPU and verify export smoke parity.
+laya==0.3.24
+torch==2.14.1
+transformers==5.18.0
+safetensors==0.8.0
+tokenizers==0.23.2
+numpy==2.5.3
+huggingface-hub==1.33.0
